@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/assets/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <div class="container">
+  <div class="wrap animated fadeIn">
+    <h1><span style="">LunarProxy Arcade</span></h1>
+    <h5><span style="color:blue;">NOTICE: Some games may not operate correctly. This is due to compatibiliy issues related to Ruffle.rs, and only Ruffle.rs.</font></h5>
+      <h5>Games last updated at <span style="color:green;">9:00 AM (PST) </span> on <span style="color:green;">12/6/2021</span></h5>
+      <h2>Game Compatibility Key</h2>
+      <h5><span style="color:green;">Green</span>: Fully functional without any detectable bugs/errors.</h5>
+      <h5><span style="color:blue;">Blue</span>: Semi-functional, although with bugs of varying severity.</h5>
+      <h5><span style="color:red;">Red</span>: A completely non-functional game, likely doesn't even start up.</h5>
+    <form class="sbar" id="searchform">
+      <input type="text" autocomplete="off" class="sinput" name="gSearch" id="gSearch" list="searchsuggestions" placeholder="Enter Search Query To Search Games.">
+    </form>
+    <div class="b-box">
+      <ul id="gMenu">
+        <li><a href="html5games/2048/index.html"><span style="color: green;">2048</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/1on1soccer_24.swf');"> <span style="color: green;">1 on 1 soccer</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/adrenaline_24.swf');"> <span style="color: green;">Adrenaline</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/ArkandianRevenant.swf');"> <span style="color: green;">Arkandian Renevant</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/boxhead-2-players_27.swf');"> <span style="color: blue;">Boxhead 2 player</span></a></li>
+        <li><a href="html5games/breaklock/index.html"><span style="color: green;">Breaklock</span></a></li>
+        <li><a href="html5games/nerd.html"><span style="color: green;">Breakout</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/bullet_bill_26.swf');"> <span style="color: green;">Bullet Bill</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/causality_chrome_edition_26.swf');"> <span style="color: green;">Casualty Chrome</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/computer_bashing_27.swf');"> <span style="color: green;">Computer Smashing</span></a></li>
+        <li><a href="html5games/cookies/index.html"><span style="color: green;">Cookie Clicker</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/cubefield_24.swf');"> <span style="color: green;">Cubefield</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/donkey-kong_26.swf');"> <span style="color: blue;">Donkey Kong</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/dontshootthepuppy_26.swf');"> <span style="color: green;">Don't Shoot The Puppy</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/doodledefender_28.swf');"> <span style="color: green;">Doodle Defender</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/electric_man_28.swf')"> <span style="color: blue;">Electric Man</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/ElectricMan2.swf');"> <span style="color: blue;">Electric Man 2</span></a></li>
+        <li><a href="html5games/flappybird/index.html"><span style="color: green;">Flappy Bird</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/flashflightsimulator_21.swf');"> <span style="color:green;">Flash Flight Simulator</span></a></li>
+        <li><a href="html5games/hextris/index.html"><span style="color: green;">Hextris</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/megaman_project_x_25.swf');"> <span style="color: green;">Megaman Project X</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/mine_blocks_27.swf');"> <span style="color: green;">Mineblocks</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/mirror-edge_26.swf');"> <span style="color: blue;">Mirror's Edge</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/multitask_27.swf');"> <span style="color: green;">Multitask</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/nanotube_24.swf');"> <span style="color: green;">Nanotube</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/StickRPG.swf');"> <span style="color:green;">Stick RPG</span></a></li>
+        <li><a href="html5games/spaceinvaders/index.html"><span style="color: green;">Space Invaders</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/TacticalAssassin.swf');"> <span style="color:green;">Tactical Assassin</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://cdn.jsdelivr.net/gh/B3ATDROP3R/gstore/TankTrouble.swf');"> <span style="color:blue;">Tank Trouble</span></a></li>
+        <li><a href="html5games/towermaster/index.html" onclick="loadRuf('');"><span style="color: green;">Towermaster</span></a></li>
+        <li><a href="#" onclick="loadRuf('https://raw.githubusercontent.com/B3ATDROP3R/gstore/master/ultimate_flash_sonic_27.swf');"> <span style="color:green;">Ultimate Flash Sonic</span></a></li>
+      </ul>
+    </div>
+  </div>
+  </body>
+  <script src="/assets/main.js"></script>
+</html>
+
